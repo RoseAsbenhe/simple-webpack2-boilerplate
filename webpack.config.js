@@ -35,6 +35,13 @@ module.exports = {
     ],
   },
 
+  // configurate the dev server
+  // https://webpack.github.io/docs/webpack-dev-server.html
+  // https://webpack.js.org/configuration/dev-server/
+  // https://github.com/webpack/webpack-dev-middleware
+  // https://github.com/chimurai/http-proxy-middleware
+  // https://github.com/bripkens/connect-history-api-fallback
+  // NOTE: these options have to be compatible with webpack-dev-middleware
   devServer: {
     host: 'localhost',
     port: process.env.PORT || 8080,
