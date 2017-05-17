@@ -1,6 +1,6 @@
 # simple-webpack2-boilerplate
 
-## TLDR:
+## TL;DR
 A simple Babel, ES7, devServer for web projects using webpack2.
 
 - `yarn dev`
