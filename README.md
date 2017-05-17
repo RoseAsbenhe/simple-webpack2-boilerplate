@@ -12,7 +12,7 @@ A simple Babel, ES7, devServer for web projects using webpack2.
 Clone repo:
 
 ```sh
-git clone --depth 1 URL my-app
+git clone --depth 1 git@github.com:RoseAsbenhe/simple-webpack2-boilerplate.git my-app
 cd my-app
 ```
 
