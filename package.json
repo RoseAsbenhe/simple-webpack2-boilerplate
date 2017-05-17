@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "repository": "git@github.com:RoseAsbenhe/simple-webpack2-boilerplate.git",
-  "author": "RoseAsbenhe <boehner.vaneesa@gmail.com>",
+  "author": "RoseAsbenhe <boehner.vanessa@gmail.com>",
   "license": "MIT",
   "keywords": [
     "webpack2",
