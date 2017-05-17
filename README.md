@@ -1,6 +1,6 @@
 # simple-webpack2-boilerplate
 
-# TLDR:
+## TLDR:
 A simple Babel, ES7, devServer for web projects using webpack2.
 
 - `yarn dev`
@@ -30,7 +30,7 @@ Install dependencies:
 yarn install
 ```
 
-> That's it for installing
+> Yeah! You can start programming now
 
 
 ## Workflow
