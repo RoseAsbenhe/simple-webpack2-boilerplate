@@ -1,7 +1,7 @@
 # simple-webpack2-boilerplate
 
 ## TL;DR
-A simple Babel, ES7, devServer for web projects using webpack2.
+A simple Babel, ES6, devServer for web projects using webpack2. Using eslint (based on the airbnb guidelines)
 
 - `yarn dev`
 - `yarn build`
@@ -22,7 +22,7 @@ Re-init git:
 rm -rf .git && git init && yarn init
 ```
 
-> :information_source: Yarn is a dependency manager for your node packages. (https://yarnpkg.com/en/) You can install packages with `add` and uninstall them with `remove`. There are `devDependencies` (which will only be installed in your dev enviroment, e.g. dev-servers) and `dependencies` which will also be installed for production.
+> :information_source: Yarn is a dependency manager for your node packages. (https://yarnpkg.com/en/) You can install packages with `add` and uninstall them with `remove`. There are `devDependencies` (which will only be installed in your dev enviroment, e.g. dev-servers) and `dependencies` which will also be installed for production. To add `devDependencies` use the flag `--dev`
 
 Install dependencies:
 
@@ -58,3 +58,8 @@ yarn build
 HMR (hot-module-replacement) which is a super-cool feature of webpack has NOT been configurated within this boilerplate yet. Otherwise the development server would have live-reloads. (https://webpack.js.org/concepts/hot-module-replacement/)
 
 Furthermore it would be possible to simulate a production server (CDN) if you install `serve` (https://www.npmjs.com/package/serve)
+
+This projects used eslint, based on the airbnb configurations.
+See: http://eslint.org/
+See: https://www.npmjs.com/package/eslint-config-airbnb
+Make sure, you have a linter installed in your IDE.
